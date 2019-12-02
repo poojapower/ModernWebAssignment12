@@ -41,7 +41,7 @@ class ProductForm extends React.Component{
                     <input type="text"  class="form-control" name="name" onChange={this.handleChange}/>
                 </label><br/>
                 <label> Category:<br/>
-                    <input type="text"  class="form-control" onChange={this.handleChange}/><br />
+                    <input type="text"  class="form-control" name="category" onChange={this.handleChange}/><br />
                 </label><br/>
                 <label> Price:<br/>
                     <input type="text"  class="form-control" name="price" onChange={this.handleChange}/><br />
